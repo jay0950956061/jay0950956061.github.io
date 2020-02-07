@@ -1,4 +1,7 @@
 @media (max-width:1024px) {
+	.container {
+		width: 100%;
+	}
 	.logo {
 		width: 224px
 	}
@@ -9,10 +12,19 @@
 		width: 500px;
 	}
 	.submenu li {
-	width: 250%;
+	width: 300%;
+	}
+	.title {
+	width: 65%;
+	}
+	.sort {
+	width: 240px;
 }
 }
 @media (max-width:800px) {
+	.container {
+		width: 100%;
+	}
 	.logo, nav, .search, .cart {
 		margin: 10px 0;
 	}
@@ -25,9 +37,19 @@
 	}
 	.submenu li {
 	width: 250%;
+	}
+	.title {
+	width: 100%;
+	}
+	.sort {
+	padding-top: 30px;
+	width: 240px;
 }
 }
 @media (max-width:600px) {
+	.container {
+		width: 100%;
+	}
 	.logo, nav, .search, .cart {
 		margin: 10px 0;
 	}
@@ -50,11 +72,13 @@
 }
 }
 @media (max-width:480px) {
+	.container {
+		width: 100%;
+	}
 	.logo, nav, .search, .cart {
 		margin: 10px 0;
 	}
 	.header {
-		width: 100%;
 		flex-wrap: wrap;
 		justify-content: center;
 	}
