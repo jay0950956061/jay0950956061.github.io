@@ -79,6 +79,7 @@ nav > ul > li:hover > .mark_down {
 .submenu {
 	display: none;
 	position: relative;
+	z-index: 10;
 }
 nav > ul > li:hover > .submenu {
 	display: block;
