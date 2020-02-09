@@ -30,6 +30,9 @@
 		display: flex;
 		justify-content: center;
 	}
+	.your-class {
+		width: 100%;
+	}
 }
 @media (max-width:800px) {
 	.container {
@@ -64,6 +67,9 @@
 	.padding_none {
 		display: flex;
 		justify-content: center;
+	}
+	.your-class {
+		width: 100%;
 	}
 }
 @media (max-width:600px) {
@@ -118,6 +124,9 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.your-class {
+		width: 100%;
+	}
 }
 @media (max-width:480px) {
 	.container {
@@ -150,5 +159,8 @@
 	}
 	.title {
 	width: 100%;
+	}
+	.your-class {
+		width: 100%;
 	}
 }

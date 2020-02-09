@@ -1,7 +1,12 @@
 /*Slider Slick*/
 $(document).ready(function(){
       $('.your-class').slick({
-        "setting-name": "setting-value"
+      	dots: true,
+      	prevArrow: '<img src="images/mark_left.png" class="prev" alt="nextArrow">',
+      	nextArrow: '<img src="images/mark-right.png" class="next" alt="nextArrow">',
+      	fade: true,
+      	speed: 1000,
+
       });
     });
 
