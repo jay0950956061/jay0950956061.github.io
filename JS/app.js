@@ -11,11 +11,9 @@ $(document).ready(function(){
     });
 
 let productsCountEl = document.getElementById("products-count");
-console.log(productsCountEl);
 
-/*Counter*/
+/*Counter & Add to cart*/
 let addToCartButton = document.querySelectorAll(".add-to-cart");
-console.log(addToCartButton);
 
 addToCartButton.onclick = function() {
 	alert("Hello!")
@@ -27,3 +25,13 @@ for (let i=0; i < addToCartButton.length; i++) {
 		productsCountEl.textContent = prevProductsCount + 1;
 	})
 }
+
+/*Likes checked*/
+ $(function(){
+   $('div.like').click(function(){
+     $(this).toggleClass('like_checked');     
+   })
+})
+  
+
+
