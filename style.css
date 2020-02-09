@@ -478,7 +478,7 @@ footer {
 	background-color: #2c71b8;
 	background-image: url(images/like_invert.png);
 }
-.like_checked {
+.liked {
 	padding: 0;
 	height: 30px;
 	width: 30px;
@@ -530,4 +530,15 @@ footer {
 .slick-dots li.slick-active button:before {
 	background-color: rgba(255,255,255,1) !important;
 	opacity: 1 !important;
+}
+.product_quantity {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+.decrement-btn {
+
+}
+.increment-btn {
+	
 }
