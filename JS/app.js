@@ -1,6 +1,14 @@
+/*Slider Slick*/
+$(document).ready(function(){
+      $('.your-class').slick({
+        "setting-name": "setting-value"
+      });
+    });
+
 let productsCountEl = document.getElementById("products-count");
 console.log(productsCountEl);
 
+/*Counter*/
 let addToCartButton = document.querySelectorAll(".add-to-cart");
 console.log(addToCartButton);
 
